@@ -26,7 +26,7 @@ body {
 }
 
 .logo {
-  color: rebeccapurple;
+  color: #F9FAF8;
   font-size: 24px;
   margin: 120px;
   margin-top: 0;
@@ -42,7 +42,8 @@ body {
 a {
   /* this removes the line under our links */
   text-decoration: none;
-  color: rebeccapurple;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 ul {
@@ -50,8 +51,21 @@ ul {
   display: flex;
   justify-content: right;
   gap: 8px;
+  
+}
+.velikitekst{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+.malitekst{
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
+button{
+  background-color: #3882f6;
+}
 
 .intro {
 
@@ -68,11 +82,11 @@ ul {
 .title {
   font-size: 36px;
   font-weight: 900;
-}
-
-.title {
+  color: #1F2937;
   margin-bottom: 32px;
 }
+
+
 
 .container {
   display: flex;
@@ -86,7 +100,7 @@ ul {
 
 .main{
 
-  background-color: gray;
+  background-color: #e5e7eb;
   padding-bottom: 0%;
   
   display: flex;
@@ -97,6 +111,9 @@ ul {
 
 .tekst{
 
+  
+  font-style: light italic;
+  color: #1F2937;
   padding: 200px;
   height: 100px;
   width: 300px;
@@ -112,7 +129,7 @@ ul {
 }
 .bubble{
 
-  background-color: rgb(0, 110, 255);
+  background-color: #3882f6;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -120,7 +137,7 @@ ul {
 
 .footer{
 
-  background-color: gray;
+  background-color: #1F2937;
  
   text-align: center;
 }
